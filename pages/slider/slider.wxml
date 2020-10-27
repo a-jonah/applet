@@ -1,0 +1,17 @@
+<slider value="30" show-value="true" block-color="red"></slider>
+
+<icon type="success"></icon>
+<icon type="success_no_circle"></icon>
+<icon type="info"></icon>
+<icon type="warn"></icon>
+<icon type="waiting"></icon>
+<icon type="cancel"></icon>
+<icon type="download"></icon>
+<icon type="search"></icon>
+<icon type="clear"></icon>
+<view>
+  <progress percent="30" show-info="true" active="true"></progress>
+</view>
+<view>
+  <rich-text nodes="{{hello}}"></rich-text>
+</view>

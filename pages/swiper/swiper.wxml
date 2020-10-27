@@ -1,0 +1,12 @@
+<scroll-view class="tab-nav-wrap" scroll-x="true" scroll-with-animation="true" scroll-left="{{sceollLift}}">
+  <view class="tab-nav">
+    <view class="tab-item {{index==currentIndex?'active':''}}" wx:for="{{tabData}}" wx:key="index" bindtap="changeFn" data-index="{{index}}" >
+      {{item.title}}
+    </view>
+  </view>
+</scroll-view>
+<swiper class="tab-body" bindchange="swiperTabFn" current="{{currentIndex}}">
+  <swiper-item wx:for="{{tabData}}" wx:key="index">
+   <view>{{item.title}}</view>
+  </swiper-item>
+</swiper>

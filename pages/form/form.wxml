@@ -1,0 +1,18 @@
+<button type="primary" loading="true">按钮</button>
+<button type="default">按钮</button>
+<button type="warn" size="mini">按钮</button>
+<view></view>
+<checkbox>复选框</checkbox>
+<view></view>
+<input type="text" />
+<view>
+  <radio-group>
+    <radio checked="true">选项1</radio>
+    <radio>选项2</radio>
+    <radio>选项3</radio>
+  </radio-group>
+</view>
+<switch>开关</switch><switch type="checkbox"> 开关2</switch>
+<view>
+  <textarea name="" id="" cols="30" rows="10" focus="true" placeholder="请输入内容"></textarea>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/cart/cart.wxml-->
+<import src="../template/template.wxml"></import>
+<text>购物车</text>
+
+<template name="moban1">
+   <view>
+    <text>模板1</text>
+   </view>
+   <view>{{msg}}</view>
+   <view>{{name}}</view>
+</template>
+
+<template is="moban1" data="{{...obj}}"></template>
+
+<template is="user" data="{{...user}}"></template>

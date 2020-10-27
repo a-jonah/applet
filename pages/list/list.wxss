@@ -1,0 +1,27 @@
+scroll-view{
+  width: 100%;
+  background: #efefef;
+}
+.list-wrap{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #efefef;
+}
+.list-item{
+  width: 50%;
+  border: 10rpx solid #efefef;
+  box-sizing: border-box;
+  background: #fff;
+  text-align: center;
+  padding: 10rpx;
+}
+.list-item image{
+  width: 100%;
+}
+.list-item-title{
+  font-size: 24rpx;
+  height: 100rpx;
+  overflow: hidden;
+  line-height: 50rpx;
+}

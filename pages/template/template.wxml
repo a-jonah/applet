@@ -1,0 +1,11 @@
+<template name="user">
+  <view>
+    姓名：<text>name</text>
+  </view>
+  <view>
+    性别：<text>sex</text>
+  </view>
+  <view>
+    年龄：<text>age</text>
+  </view>
+</template>

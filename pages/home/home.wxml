@@ -1,0 +1,41 @@
+<!--pages/home/home.wxml-->
+<view class="search" style="background:{{bgColor}}">
+  <headerSearch left="{{false}}" />
+</view>
+<view class="category-nav" style="background:{{bgColor}}">分类导航栏</view>
+<view class="swiper-wrap">
+  <view class="swiper-bg" style="background:{{bgColor}}"></view>
+  <view class="swiper-containner">
+    <swiper autoplay="{{true}}" indicator-dots="{{true}}" indicator-color="#ccc" indicator-active-color="#fff"
+      circular="{{true}}" bindchange="fn">
+      <block wx:for="{{swiperData}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item.img}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+<view class="swipe-nav">
+  <view class="swipe-category">
+    <swiper>
+      <swiper-item>
+        <block wx:for="{{category}}" wx:key="index">
+          <view class="category-item" >
+            <image src="" alt="" style="width:33%"></image>
+            <view>{{item.urlName}}</view>
+          </view>
+        </block>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="news">
+    <swiper vertical="true" circular="true" vertical="true" interval="2000" autoplay="true">
+      <block wx:for="{{newsList}}" wx:key="index">
+        <swiper-item>
+          <view>{{item}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

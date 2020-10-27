@@ -1,0 +1,12 @@
+<view class="search-header" >
+  <view wx:if="{{left}}" class="left">
+    <image src="../../images/iconfont/zuo.png"></image>
+  </view>
+  <view class="content">
+    <input type="text" placeholder="搜索商品名称" />
+    <image src="../../images/iconfont/search.png"></image>
+  </view>
+  <view wx:if="{{right}}" class="right">
+    <image src="../../images/iconfont/xiaoxi.png"></image>
+  </view>
+</view>

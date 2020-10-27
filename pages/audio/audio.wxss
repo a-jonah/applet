@@ -1,0 +1,8 @@
+/* pages/audio/audio.wxss */
+.ps{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 50rpx;
+}

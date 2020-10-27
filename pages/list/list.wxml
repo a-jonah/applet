@@ -1,0 +1,10 @@
+<scroll-view style="height:{{winH}}px" scroll-y="true" bindscrolltolower="reqFn">
+  <view class="list-wrap" >
+    <view class="list-item" wx:for="{{listData}}" wx:key="index">
+      <image src="{{item.goods_img}}"></image>
+      <view class="list-item-title">
+      {{item.title}}
+      </view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,3 @@
+<!--component/br/br.wxml-->
+
+<view style="width:100%;height:{{brHeight}}"></view>

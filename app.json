@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/audio/audio",
+   "pages/form/form",
+    "pages/slider/slider",
+    "pages/selector/selector",
+    "pages/swiper/swiper",
+    "pages/list/list",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/logs/logs"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大商创",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#f20e28",
+    "backgroundColor": "#efefef",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/iconfont/index.png",
+        "selectedIconPath": "images/iconfont/index-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/iconfont/category.png",
+        "selectedIconPath": "images/iconfont/category-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/iconfont/cart.png",
+        "selectedIconPath": "images/iconfont/cart-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/iconfont/mine.png",
+        "selectedIconPath": "images/iconfont/mine-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
