@@ -1,0 +1,10 @@
+
+  <audio src="https://m701.music.126.net/20201028174907/6eb09a63994199f13b9e72a1fcddf591/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/4569782716/246e/e7bd/9f26/ba6a52a381c07c9df403514b424d46fc.mp3" controls name="绿色" author="老腊肉" poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" id="llr" bindtimeupdate="updateFn"></audio>
+
+  <view>
+    <button type="success" bindtap="start">开始</button>
+    <button type="success" bindtap="stop">暂停</button>
+  </view>
+
+<slider min="0" max="{{maxTime}}" bindchange="assign" value="{{nowTime}}"></slider>
+

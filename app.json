@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/navigate/navigate",
+    "pages/audio2/audio2",
+    "pages/camera/camera",
+    "pages/images/images",
+    "pages/map/map",
     "pages/audio/audio",
    "pages/form/form",
     "pages/slider/slider",

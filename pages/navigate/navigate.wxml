@@ -1,0 +1,5 @@
+<navigator url="../audio/audio">非tabBar页面</navigator>
+<button bindtap="redirectFn">redirect，非tabBar页面</button>
+<button bindtap="switchFn">跳转tabBar页面</button>
+<button bindtap="relaunchFn">relaunch</button>
+<button bindtap="navigateFn">navigate</button>
